@@ -1,10 +1,10 @@
 body {
-    font-family: 'Days One', sans-serif;
+    /* font-family: 'Days One', sans-serif; */
+    background-color: black;
+    font-family: 'helvetica', arial;
 
 }
 
 
 p,
-button {
-    font-family: 'helvetica', arial;
-}
+button {}

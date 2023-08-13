@@ -11,7 +11,7 @@ body {
 
 p {
     font-size: 14px;
-    font-weight: 100 !important;
+    font-weight: 100;
 }
 
 
@@ -26,10 +26,19 @@ button {
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
+.card {}
+
 .cardWithShadow {
     box-shadow: 0px 5px 15px 0px #522D6E;
 }
 
+.cardWithShadow2 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 21px 0px rgba(164, 164, 164, 0.25);
+
+}
 
 .grid-container {
     display: grid;

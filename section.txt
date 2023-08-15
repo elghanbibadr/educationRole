@@ -2,47 +2,7 @@
     
     <!-- the main section -->
     <main>
-        <!-- features section -->
-        <section class="container relative bottom-4 md:bottom-20">
-            <div class="cardWithShadow bg-white p-6  rounded-md md:grid md:grid-cols-2">
-                <div class="text-center md:text-left self-center ">
-                    <h2 class="text-[#090A09] font-bold text-xl md:text-[32px]">Ready to find your
-                        new role in education ?</h2>
-                    <p class="my-6">SET Recruitment specialises in offering a value-for-money support service, providing
-                        the best
-                        possible temporary staff, backed with an excellent service that is available 24 hours a day, 7
-                        days
-                        a week, 365 days a year.</p>
-                    <div class="flex flex-col items-center md:flex-row justify-between h-[100px]">
-                        <button class="bg-darkBlue h-fit text-white p-3 rounded-md">Contact Us</button>
-                        <img class=" my-6 md:my-0 md:self-end" src="/assets/integration-logos_badges 1.png" alt="">
-                    </div>
-                </div>
-                <div class=" self-center  justify-self-center ">
-                    <img class="mx-auto mt-6" src="/assets/girlImage.png" alt="">
-                </div>
-            </div>
-            <!-- features grid -->
-            <div class="lg:grid lg:gap-6 lg:grid-cols-3 mt-4">
-                <div class="cardWithShadow flex  gap-6 items-center h-[100px] p-6 rounded-md">
-                    <h3 class="text-darkBlue font-bold text-3xl xl:text-5xl">01%</h3>
-                    <p class="col-span-2">of our candidates our placed into their first placement within 1 week of being
-                        cleared</p>
-                </div>
-                <div class="cardWithShadow flex gap-6 items-center h-[100px] p-6 rounded-md">
-                    <h3 class="text-darkBlue font-bold text-3xl xl:text-5xl">01%</h3>
-                    <p class="col-span-2">of our candidates our placed into their first placement within 1 week of being
-                        cleared</p>
-                </div>
-                <div class="cardWithShadow flex gap-6 items-center h-[100px] p-6 rounded-md">
-                    <h3 class="text-darkBlue font-bold text-3xl xl:text-5xl">01%</h3>
-                    <p class="col-span-2">of our candidates our placed into their first placement within 1 week of being
-                        cleared</p>
-                </div>
-
-
-            </div>
-        </section>
+     
         <!-- WHAT WE OFFRE -->
         <section class="bg-darkBlue px-4 py-8  md:gap-10 grid-container">
             <!-- offre item -->

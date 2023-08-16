@@ -75,6 +75,11 @@
 /* button */
 button {
     font-size: 1.6rem !important;
-    padding: 1rem 1.6rem !important;
-    background-color: #522D6E !important;
+    padding: 1rem 1.6rem;
+    background-color: #522D6E;
+}
+
+/* footer */
+footer li {
+    margin-block: 5px;
 }

@@ -90,3 +90,10 @@ footer li {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 25% 100%, 0 70%);
     }
 }
+
+
+
+/* our process  */
+.ourProcess p {
+    margin-left: 10px;
+}

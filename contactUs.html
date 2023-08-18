@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        darkBlue: "#522D6E",
+                        cardColor: "#FFFFFF",
+                        neutralBg: "#F9F7FF",
+                        headingBlack: "#090A09"
+                    },
+                    boxShadow: {
+                        "purpleShadow": "0px 5px 15px 0px #522D6E",
+                        "grayShadow": "0px 5px 21px 0px rgba(164, 164, 164, 0.25)",
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <title>about us</title>
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+    <nav class=" h-[50px] p-2 bg-cardColor items-center flex justify-between md:hidden ">
+
+        <img class="h-20 w-40 p-2" src="/assets/setRecruitment.png" alt="setRecruitment logo">
+        <img id="closeIcon" class="h-16 cursor-pointer w-16 hidden  " src="/assets/close.svg" alt="close icon">
+        <img id="hamburgerIcon" class="h-16 w-16 cursor-pointer" src="/assets/menu.svg" alt="menu hamburger icon">
+    </nav>
+    <header
+        class="bg-[url(assets/contactUsHeroBg.svg)] md:rounded-br-[300px] md:pt-10  md:px-6   h-[400px]  lg:h-[740px] bg-center md:h-[500px]  bg-cover bg-no-repeat bg-cover">
+
+        <div class="container">
+            <!-- mobile navigation-->
+            <div class="flex   flex-col hidden md:flex items-center md:flex-row md:justify-between">
+                <ul class="flex items-center  lg:w-[30%]">
+                    <li class="mx-4"> <a href="#"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
+                    <li class="mx-4"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a> </li>
+                    <li class="mx-4"> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
+                    <li class="mx-4 "> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /></a> </li>
+                </ul>
+                <div class="flex  items-center">
+                    <img class="relative bottom-1 mx-2" src="/assets/phoneIcon.svg" alt="phone icon">
+                    <p class="text-white "><strong>Cardiff </strong> 01443 230 222
+                    </p>
+                </div>
+                <div class="flex  items-center mx-4">
+                    <img class="relative bottom-1 mx-2" src="/assets/phoneIcon.svg" alt="phone icon">
+                    <p class="text-white "><strong>Liantrisant </strong> 01443 230 222
+                    </p>
+                </div>
+                <div class="flex  items-center">
+                    <img class="relative bottom-1 mx-2" src="/assets/phoneIcon.svg" alt="phone icon">
+                    <p class="text-white "><strong>Swansea </strong> 01443 230 222
+                    </p>
+                </div>
+            </div>
+            <!-- Card with Links -->
+            <div
+                class="bg-cardColor card shadow-purpleShadow px-6 navList hidden my-10   p-4 h-fit   md:flex flex-col items-center md:flex-row md:justify-between">
+                <img class="h-[56px] hidden md:block w-[120px] " src="/assets/setRecruitment.png" alt="">
+                <ul class="p-6 text-[1.6rem] text-center  md:flex md:items-center md:justify-between md:w-[80%]">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/client">Client</a></li>
+                    <li><a href="/candidate">Candidates</a></li>
+                    <li><a href="/team">Team</a></li>
+                    <li><a href="/testimonial">Testimonial</a></li>
+                    <li><a href="/contactUs"> <button
+                                class="bg-darkBlue font-bold px-7 py-4 text-white p-3 rounded-md">Contact Us</button>
+                        </a></li>
+
+                </ul>
+            </div>
+            <div class=" text-center md:mt-20 md:text-left">
+                <h1
+                    class=" text-[4.6rem] text-white lg:relative lg:top-20 leading-[70px] md:text-[5.2rem]  lg:text-[6.8rem]">
+                    Contact Us </h1>
+
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- why choose us -->
+        <section class="container    ">
+            <!-- <div> -->
+            <div class=" bg-white  relative bottom-4 md:bottom-20 lg:bottom-[17rem] card p-0 shadow-grayShadow rounded-md
+                md:grid md:grid-cols-2">
+                <div class="text-center p-10 md:text-left self-center ">
+                    <h2
+                        class=" text-[2.8rem] md:text-[3.2rem] mb-[2rem] text-[#090A09] leading-[3.8rem] text-center md:text-left ">
+                        Get In Touch</h2>
+
+                    <div>
+                        <div class="lg:grid lg:grid-cols-2">
+                            <!--   first list  -->
+                            <ul class="mt-7">
+                                <li class="text-darkBlue text-[1.6rem] mb-7 font-bold">Telephone</li>
+                                <li>
+                                    <p class="text-[1.2rem]"><strong>Llantrisant</strong> <br> 01443 230 222</p>
+                                </li>
+                                <li class="my-6">
+                                    <p class="text-[1.2rem]"><strong>Swansea</strong> <br> 01792 342 948</p>
+                                </li>
+                                <li>
+                                    <p class="text-[1.2rem]"><strong>Cardiff</strong> <br> 02920 670 832</p>
+                                </li>
+                                <li class="mt-6">
+                                    <p class="text-[1.2rem] font-bold"><strong
+                                            class="text-[1.6rem] text-darkBlue">Email</strong>
+                                        <br>
+                                        enquiries@networkrecruitmentwales.co.uk
+                                    </p>
+                                </li>
+                                <li>
+                                    <img class="mt-6 mx-auto md:mx-[0px] " src="/assets/integration-logos_badges 1.png"
+                                        alt="integration-logos_badges image">
+
+                                </li>
+                            </ul>
+                            <!--   second list  -->
+                            <ul class="mt-7">
+                                <li class="text-darkBlue text-[1.6rem] mb-7 font-bold">Opening Hours</li>
+                                <!--    -->
+                                <li>
+                                    <p class="text-[1.2rem]"><strong>Monday - Friday</strong> <br> 7AM - 8PM </p>
+                                </li>
+                                <li class="my-6">
+                                    <p class="text-[1.2rem]"><strong>Saturday - Sunday</strong> <br> 9AM - 5PM</p>
+                                </li>
+
+                                <li class="mt-6">
+                                    <p class="text-[1.2rem] font-bold"><strong
+                                            class="text-[1.6rem] text-darkBlue">Socials</strong>
+                                        <br>
+                                    <div>
+                                        <ul class="flex items-center w-fit mx-auto mt-3 md:mx-[0px]  ">
+                                            <li> <a href="#">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M6.28961 20C13.8368 20 17.9648 12.3048 17.9648 5.63143C17.9648 5.41288 17.9648 5.1953 17.9528 4.97868C18.7559 4.26377 19.4491 3.37868 20 2.36471C19.2511 2.7731 18.4566 3.04087 17.6432 3.15923C18.4996 2.5283 19.141 1.53519 19.4472 0.366035C18.6418 0.954219 17.7605 1.36881 16.8416 1.59182C16.0657 0.576454 14.9821 0 13.8497 0C11.5965 0 9.74246 2.28178 9.74246 5.05468C9.74246 5.43937 9.77816 5.82286 9.84879 6.19755C6.55121 5.99414 3.47457 4.07455 1.39199 0.921337C0.309023 3.21571 0.869375 6.18908 2.66238 7.66255C2.00945 7.63875 1.37055 7.42194 0.8 7.03047V7.09446C0.800547 9.48921 2.18465 11.5707 4.09199 12.0448C3.48793 12.2476 2.85398 12.2772 2.23922 12.1315C2.77543 14.1835 4.32168 15.598 6.07281 15.6384C4.62008 17.0435 2.82449 17.8067 0.976797 17.8045C0.650312 17.8037 0.324141 17.7794 0 17.7316C1.87633 19.2135 4.06016 19.9997 6.28961 19.9961"
+                                                            fill="#522D6E" />
+                                                    </svg>
+
+                                                </a> </li>
+                                            <li class="mx-4"> <a href="#">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M6.28961 20C13.8368 20 17.9648 12.3048 17.9648 5.63143C17.9648 5.41288 17.9648 5.1953 17.9528 4.97868C18.7559 4.26377 19.4491 3.37868 20 2.36471C19.2511 2.7731 18.4566 3.04087 17.6432 3.15923C18.4996 2.5283 19.141 1.53519 19.4472 0.366035C18.6418 0.954219 17.7605 1.36881 16.8416 1.59182C16.0657 0.576454 14.9821 0 13.8497 0C11.5965 0 9.74246 2.28178 9.74246 5.05468C9.74246 5.43937 9.77816 5.82286 9.84879 6.19755C6.55121 5.99414 3.47457 4.07455 1.39199 0.921337C0.309023 3.21571 0.869375 6.18908 2.66238 7.66255C2.00945 7.63875 1.37055 7.42194 0.8 7.03047V7.09446C0.800547 9.48921 2.18465 11.5707 4.09199 12.0448C3.48793 12.2476 2.85398 12.2772 2.23922 12.1315C2.77543 14.1835 4.32168 15.598 6.07281 15.6384C4.62008 17.0435 2.82449 17.8067 0.976797 17.8045C0.650312 17.8037 0.324141 17.7794 0 17.7316C1.87633 19.2135 4.06016 19.9997 6.28961 19.9961"
+                                                            fill="#522D6E" />
+                                                    </svg>
+                                                </a> </li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M6.28961 20C13.8368 20 17.9648 12.3048 17.9648 5.63143C17.9648 5.41288 17.9648 5.1953 17.9528 4.97868C18.7559 4.26377 19.4491 3.37868 20 2.36471C19.2511 2.7731 18.4566 3.04087 17.6432 3.15923C18.4996 2.5283 19.141 1.53519 19.4472 0.366035C18.6418 0.954219 17.7605 1.36881 16.8416 1.59182C16.0657 0.576454 14.9821 0 13.8497 0C11.5965 0 9.74246 2.28178 9.74246 5.05468C9.74246 5.43937 9.77816 5.82286 9.84879 6.19755C6.55121 5.99414 3.47457 4.07455 1.39199 0.921337C0.309023 3.21571 0.869375 6.18908 2.66238 7.66255C2.00945 7.63875 1.37055 7.42194 0.8 7.03047V7.09446C0.800547 9.48921 2.18465 11.5707 4.09199 12.0448C3.48793 12.2476 2.85398 12.2772 2.23922 12.1315C2.77543 14.1835 4.32168 15.598 6.07281 15.6384C4.62008 17.0435 2.82449 17.8067 0.976797 17.8045C0.650312 17.8037 0.324141 17.7794 0 17.7316C1.87633 19.2135 4.06016 19.9997 6.28961 19.9961"
+                                                    fill="#522D6E" />
+                                            </svg>
+                                            </a>
+                                </li>
+                                <li class="mx-4 "> <a href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.28961 20C13.8368 20 17.9648 12.3048 17.9648 5.63143C17.9648 5.41288 17.9648 5.1953 17.9528 4.97868C18.7559 4.26377 19.4491 3.37868 20 2.36471C19.2511 2.7731 18.4566 3.04087 17.6432 3.15923C18.4996 2.5283 19.141 1.53519 19.4472 0.366035C18.6418 0.954219 17.7605 1.36881 16.8416 1.59182C16.0657 0.576454 14.9821 0 13.8497 0C11.5965 0 9.74246 2.28178 9.74246 5.05468C9.74246 5.43937 9.77816 5.82286 9.84879 6.19755C6.55121 5.99414 3.47457 4.07455 1.39199 0.921337C0.309023 3.21571 0.869375 6.18908 2.66238 7.66255C2.00945 7.63875 1.37055 7.42194 0.8 7.03047V7.09446C0.800547 9.48921 2.18465 11.5707 4.09199 12.0448C3.48793 12.2476 2.85398 12.2772 2.23922 12.1315C2.77543 14.1835 4.32168 15.598 6.07281 15.6384C4.62008 17.0435 2.82449 17.8067 0.976797 17.8045C0.650312 17.8037 0.324141 17.7794 0 17.7316C1.87633 19.2135 4.06016 19.9997 6.28961 19.9961"
+                                                fill="#522D6E" />
+                                        </svg>
+                                    </a> </li>
+                            </ul>
+                        </div>
+                        </p>
+                        </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <form class="mt-10  w-[80%] mx-auto lg:grid lg:grid-cols-2 h-1/2 lg:gap-4">
+                <input class="w-full h-fit" type="text" placeholder="Name">
+                <input class="w-full  h-fit" type="text" placeholder="Telephone">
+                <input class="w-full  h-fit" type="text" placeholder="Enquiry">
+                <input class="w-full  h-fit" type="email" placeholder="Email">
+                <input class="w-full pb-[6rem] col-span-2" type=" text" placeholder="I’d like help with...">
+                <div class="w-full col-span-2">
+                    <div>
+                        <input class="p-3" id="radio" type="checkbox">
+                        <label id="formLabel" class="text-black relative bottom-1" for="radio">GDPR Statement</label>
+                    </div>
+                    <button class="bg-darkBlue w-full mx-4 mt-3 mb-10  px-7 py-4 text-white p-3 rounded-md">Send
+                        Message</button>
+                </div>
+            </form>
+
+
+        </section>
+
+        <!---------------- REVIEWS  --------------->
+        <section class="container ">
+            <img src="assets/reviews.svg" alt=" customer reviews image">
+        </section>
+    </main>
+    <!-------------------- FOOTER ---------------->
+    <footer>
+        <div class="bg-darkBlue ">
+            <div class="container"><img src="/assets/SET Recruitment White 1.png" alt="setRecruitment logo"></div>
+            <div class="container grid-container ">
+                <!-- grid item -->
+                <ul class="text-white">
+                    <li class="text-white text-[18px] font-bold">Set </li>
+                    <li> <a href="/about">About Us</a> </li>
+                    <li> <a href="/team">Team</a> </li>
+                    <li> <a href="/testimonials">Testimonials</a> </li>
+                    <li> <a href="clients">Clients</a> </li>
+                    <li> <a href="candidate">Candidates</a> </li>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white">
+                    <li class="text-white text-[18px] font-bold">Llantrisant Branch </li>
+                    <li> <a href="">Unit 1 & 2 Magden Park</a> </li>
+                    <li> <a href="">Llantrisant</a> </li>
+                    <li> <a href="">Rhondda Cynon Taf</a> </li>
+                    <li> <a href="">CF72 8XT</a> </li>
+                    <li> <a href="">01443 230 222</a> </li>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white">
+                    <li class="text-white text-[18px] font-bold">Swansea Branch</li>
+                    <li> <a href="">Canolfan Gorseinon Centre</a> </li>
+                    <li> <a href="">Gorseinon</a> </li>
+                    <li> <a href="">Swansea</a> </li>
+                    <li> <a href="">SA4 4QN</a> </li>
+                    <li> <a href="">01792 342 948</a> </li>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white">
+                    <!--      -->
+                    <li class="text-white text-[18px] font-bold">Cardiff Branch</li>
+                    <li> <a href="">3rd Floor</a> </li>
+                    <li> <a href="">Castlebridge 2</a> </li>
+                    <li> <a href="">Cardiff</a> </li>
+                    <li> <a href="">CF11 9AB</a> </li>
+                    <li> <a href="">02920 670 832</a> </li>
+                </ul>
+                <!-- grid item -->
+                <div>
+                    <img src="/assets/integration-logos_badges 1.png" alt=""> </li>
+                    <h5 class="text-white text-[18px] my-4 font-bold">Can’t find what your looking for?</h5>
+                    <form class="flex">
+                        <input type="text" class="p-1 outline-none">
+                        <button class="bg-[#9493D2] text-white py-2 px-4">search</button>
+                    </form>
+                </div>
+                <!-- grid item -->
+                <ul class="text-white md:col-span-2">
+                    <li class="text-white text-[18px]  font-bold">Email</li>
+                    <li> <a href="">enquiries@networkrecruitmentwales.co.uk</a> </li>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white  md:col-span-2">
+                    <li class="text-white text-[18px] font-bold">Partners</li>
+                    <div class="flex items-center  gap-4">
+                        <li> <a href="">MPS Healthcare</a> </li>
+                        <li> <a href="">NRW Recruitment</a> </li>
+                    </div>
+                </ul>
+                <ul class=" flex ">
+                    <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
+                    <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a> </li>
+                    <li> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
+                    <li class="mx-6"> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /> </a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg-neutralBg">
+            <div class="container">
+                <ul
+                    class="flex flex-col md:flex-row cursor-pointer items-center md:justify-between   text-[1.4rem] text-[#010101]">
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Site Map</li>
+                    <li>Copyright Network Recruitment Wales 2023 - Website by The Web Designer Cardiff</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

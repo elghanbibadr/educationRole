@@ -23,6 +23,7 @@
     h1,
     h2,
     h3,
+    #formLabel,
     h4,
     h5,
     h6,
@@ -52,9 +53,6 @@
         padding: 20px;
     }
 
-    /* .ourProcess li span {
-        padding-right: 5rem !important;
-    } */
 
     /* GRIDS */
 
@@ -68,7 +66,6 @@
         margin-inline: auto;
         max-width: 1200px !important;
         padding: 10px;
-        /* background-color: red !important; */
     }
 }
 
@@ -97,4 +94,46 @@ footer li {
 /* our process  */
 .ourProcess p {
     margin-left: 10px;
+}
+
+
+
+header {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+body {
+    height: 600px !important;
+}
+
+/* testimonial*/
+/* #headerWitcurvedBackground::after {
+    content: '';
+    width: 100% !important;
+    position: absolute;
+    display: inline-block;
+    top: 10rem;
+    background-image: url(assets/NRW\ White\ 3.svg);
+    background-size: cover;
+    height: 200px !important;
+    background-repeat: no-repeat;
+} */
+
+
+/* contact us section */
+
+form input,
+textarea {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    outline: none;
+    margin: 1rem;
+    box-shadow: 0px 4px 19px 0px #00000040;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #010101;
 }

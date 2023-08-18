@@ -108,17 +108,40 @@ body {
 }
 
 /* testimonial*/
-/* #headerWitcurvedBackground::after {
+#headerWitcurvedBackground::after {
     content: '';
     width: 100% !important;
+
     position: absolute;
     display: inline-block;
-    top: 10rem;
+    top: 74%;
     background-image: url(assets/NRW\ White\ 3.svg);
     background-size: cover;
     height: 200px !important;
+    z-index: -1000000;
     background-repeat: no-repeat;
-} */
+}
+
+@media screen and (min-width:500px) {
+    #headerWitcurvedBackground::after {
+        top: 25rem
+    }
+}
+
+@media screen and (min-width:768px) {
+    #headerWitcurvedBackground::after {
+        height: 400px !important;
+        top: 40rem;
+        /* top: 40r em */
+        /* top: 20rem */
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    #headerWitcurvedBackground::after {
+        /* top: 30rem */
+    }
+}
 
 
 /* contact us section */

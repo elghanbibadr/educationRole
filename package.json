@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "vite": "^4.4.9"
+    "vite": "^4.4.9",
+    "vite-plugin-pages": "^0.31.0"
   }
 }

@@ -146,7 +146,7 @@ body {
 
 /* contact us section */
 
-form input,
+.contactUsForm input,
 textarea {
     padding: 10px;
     font-weight: bold;

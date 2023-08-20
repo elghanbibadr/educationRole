@@ -12,6 +12,8 @@
 
 
 
+
+
     /* TYPOGRAPHY */
     p,
     a {
@@ -159,4 +161,10 @@ textarea {
 textarea::placeholder,
 input::placeholder {
     color: #010101;
+}
+
+
+
+body {
+    overflow-x: hidden !important;
 }

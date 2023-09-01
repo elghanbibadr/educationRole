@@ -105,6 +105,12 @@ header {
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 768px) {
+    header h1 {
+        margin-top: 10rem !important;
+    }
+}
+
 body {
     height: 600px !important;
 }
@@ -134,20 +140,11 @@ body {
     #headerWitcurvedBackground::after {
         height: 400px !important;
         top: 40rem;
-        /* top: 40r em */
-        /* top: 20rem */
+
     }
 }
-
-@media screen and (min-width: 1008px) {
-    #headerWitcurvedBackground::after {
-        /* top: 30rem */
-    }
-}
-
 
 /* contact us section */
-
 .contactUsForm input {
     padding: 10px;
     font-weight: bold;
@@ -200,28 +197,19 @@ body {
         top: 0;
         width: 100%;
         z-index: 10009999999999999 !important;
+        box-shadow: 0px 5px 15px 0px #522D6E !important;
     }
 
 
     .fixedNavList {
         position: fixed;
         width: 90%;
-        /* Position at vertical center */
         left: 50%;
         top: 20%;
-        /* margin-inline: auto; */
-        /* left: 50%; Position at horizontal center */
+
         transform: translate(-50%, -50%);
-        /*
-        /* Adjust to center the element */
-        z-index: 19999999999900 !important;
 
 
     }
 
 }
-
-/* 
-.fixedNavList ul{
-    width: 60%;
-} */

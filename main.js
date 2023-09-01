@@ -53,10 +53,8 @@ const initialNavbarOffsetTop = navbar.offsetTop;
 function toggleFixedNavbar() {
     if (window.pageYOffset >= initialNavbarOffsetTop) {
         navbar.classList.add('fixed');
-        // console.log(navDesktop)
         navList.classList.add('fixedNavList');
-        // navDesktop.classList.add('navDesktop');
-        // navList.style.margin = "4rem"
+
     } else {
         navbar.classList.remove('fixed');
         navList.classList.remove('fixedNavList');

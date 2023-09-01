@@ -35,3 +35,34 @@ nextButton.addEventListener("click", () => {
 prevButton.addEventListener("click", () => {
     slidesContainer.scrollLeft -= slideWidth;
 });
+
+
+
+
+// fixed navbar
+const navbar = document.querySelector('nav');
+const content = document.querySelector('.content');
+const navDesktop = document.querySelector('.navForDesktop')
+// const navList = document.querySelector('.navList')
+
+// console.log(navDesktop)
+// Store the initial position of the navbar
+const initialNavbarOffsetTop = navbar.offsetTop;
+
+// Function to toggle the "fixed" class based on scroll position
+function toggleFixedNavbar() {
+    if (window.pageYOffset >= initialNavbarOffsetTop) {
+        navbar.classList.add('fixed');
+        // console.log(navDesktop)
+        navList.classList.add('fixedNavList');
+        // navDesktop.classList.add('navDesktop');
+        // navList.style.margin = "4rem"
+    } else {
+        navbar.classList.remove('fixed');
+        navList.classList.remove('fixedNavList');
+
+    }
+}
+
+// Add a scroll event listener
+window.addEventListener('scroll', toggleFixedNavbar);

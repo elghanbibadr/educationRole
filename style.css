@@ -186,3 +186,39 @@ body {
     display: none;
     /* Safari and Chrome */
 }
+
+
+
+@media screen and (max-width:768px) {
+
+    /* fixed Navbar */
+    .fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10009999999999999 !important;
+    }
+
+
+    .fixedNavList {
+        position: fixed;
+        width: 90%;
+        /* Position at vertical center */
+        left: 50%;
+        top: 20%;
+        /* margin-inline: auto; */
+        /* left: 50%; Position at horizontal center */
+        transform: translate(-50%, -50%);
+        /*
+        /* Adjust to center the element */
+        z-index: 19999999999900 !important;
+
+
+    }
+
+}
+
+/* 
+.fixedNavList ul{
+    width: 60%;
+} */

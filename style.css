@@ -191,33 +191,36 @@ body {
 }
 
 
-/* 
+
 @media screen and (max-width:768px) {
 
     /* fixed Navbar */
-/* .fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10009999999999999 !important;
-    box-shadow: 0px 5px 15px 0px #522D6E !important;
+    .fixed {
+        position: fixed !important;
+        top: 0px !important;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto !important;
+        border-radius: 0px !important;
+        z-index: 10009999999999999 !important;
+        box-shadow: 0px 5px 15px 0px #522D6E !important;
+    }
+
+
+    .fixedNavList {
+        position: fixed;
+        width: 90%;
+        left: 50%;
+        top: 20%;
+
+        transform: translate(-50%, -50%);
+
+
+    }
 }
 
 
-.fixedNavList {
-    position: fixed;
-    width: 90%;
-    left: 50%;
-    top: 20%;
-
-    transform: translate(-50%, -50%);
-
-
-} */
-
-
-
-*/
 /* autoplay carousel animation */
 /* 
 @-webkit-keyframes scroll {

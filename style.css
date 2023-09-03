@@ -170,6 +170,9 @@ body {
 }
 
 
+.hidden {
+    display: none;
+}
 
 .slides-container {
     -ms-overflow-style: none;
@@ -188,28 +191,96 @@ body {
 }
 
 
-
+/* 
 @media screen and (max-width:768px) {
 
     /* fixed Navbar */
-    .fixed {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 10009999999999999 !important;
-        box-shadow: 0px 5px 15px 0px #522D6E !important;
-    }
-
-
-    .fixedNavList {
-        position: fixed;
-        width: 90%;
-        left: 50%;
-        top: 20%;
-
-        transform: translate(-50%, -50%);
-
-
-    }
-
+/* .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10009999999999999 !important;
+    box-shadow: 0px 5px 15px 0px #522D6E !important;
 }
+
+
+.fixedNavList {
+    position: fixed;
+    width: 90%;
+    left: 50%;
+    top: 20%;
+
+    transform: translate(-50%, -50%);
+
+
+} */
+
+
+
+*/
+/* autoplay carousel animation */
+/* 
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .infiniteslide {
+    height: 100px;
+    width: 250px;
+} */
+
+/* https://codepen.io/studiojvla/pen/qVbQqW */

@@ -1,11 +1,13 @@
-const hamburgerMenu = document.getElementById('hamburgerIcon')
+const hamburgerMenu = document.querySelector('.hamburgerIcon')
 const closeIcon = document.getElementById('closeIcon')
 const navList = document.querySelector('.navList')
 
 
+console.log(hamburgerMenu)
 
-
+// Your JavaScript code here
 hamburgerMenu.addEventListener('click', () => {
+    console.log("clicked")
     closeIcon.classList.remove('hidden')
     hamburgerMenu.classList.add('hidden')
     navList.classList.remove('hidden')
@@ -40,27 +42,27 @@ prevButton.addEventListener("click", () => {
 
 
 // fixed navbar
-const navbar = document.querySelector('nav');
-const content = document.querySelector('.content');
-const navDesktop = document.querySelector('.navForDesktop')
+// const navbar = document.querySelector('nav');
+// const content = document.querySelector('.content');
+// const navDesktop = document.querySelector('.navForDesktop')
 // const navList = document.querySelector('.navList')
 
 // console.log(navDesktop)
 // Store the initial position of the navbar
-const initialNavbarOffsetTop = navbar.offsetTop;
+// const initialNavbarOffsetTop = navbar.offsetTop;
 
 // Function to toggle the "fixed" class based on scroll position
-function toggleFixedNavbar() {
-    if (window.pageYOffset >= initialNavbarOffsetTop) {
-        navbar.classList.add('fixed');
-        navList.classList.add('fixedNavList');
+// function toggleFixedNavbar() {
+//     if (window.pageYOffset >= initialNavbarOffsetTop) {
+//         navbar.classList.add('fixed');
+//         navList.classList.add('fixedNavList');
 
-    } else {
-        navbar.classList.remove('fixed');
-        navList.classList.remove('fixedNavList');
+//     } else {
+//         navbar.classList.remove('fixed');
+//         navList.classList.remove('fixedNavList');
 
-    }
-}
+//     }
+// }
 
-// Add a scroll event listener
-window.addEventListener('scroll', toggleFixedNavbar);
+// // Add a scroll event listener
+// window.addEventListener('scroll', toggleFixedNavbar);

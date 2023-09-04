@@ -1,0 +1,39 @@
+<section class="bg-darkBlue slider px-4 py-8  ">
+    <div class="slide-track">
+        <!-- offre item -->
+        <div class="flex  slide">
+            <span class=" bg-white inline-flex justify-center items-center h-7 p-1 w-7 rounded-full ">
+                <img src=" assets/purplecheckIcon.svg" alt="check icon">
+            </span>
+            <p class="text-cardColor  text[#111] mx-2">Qualified Teachers</p>
+        </div>
+        <!-- offre item -->
+        <div class="flex slide ">
+            <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                <img src="assets/purplecheckIcon.svg" alt="check icon">
+            </span>
+            <p class="text-cardColor text[#111] mx-2">Newly Qualified Teacher (NQT)</p>
+        </div>
+        <!-- offre item -->
+        <div class="flex items-center slide">
+            <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                <img src="assets/purplecheckIcon.svg" alt="check icon">
+            </span>
+            <p class="text-cardColor  text-[#111] mx-2">Learning Support Assistant</p>
+        </div>
+        <!-- offre item -->
+        <div class="flex items-center slide">
+            <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                <img src="assets/purplecheckIcon.svg" alt="check icon">
+            </span>
+            <p class="text-cardColor mx-2 ">Additional Learning Needs </p>
+        </div>
+        <!-- offre item -->
+        <div class="flex items-center slide">
+            <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                <img src="assets/purplecheckIcon.svg" alt="check icon">
+            </span>
+            <p class="text-cardColor  text-[#111] mx-2">Cover Supervisors</p>
+        </div>
+    </div>
+</section>

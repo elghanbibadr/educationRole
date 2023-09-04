@@ -193,10 +193,13 @@ body {
 
 
 @media screen and (max-width:768px) {
+    .navList li {
+        margin-block: 7px !important;
+    }
 
     /* fixed Navbar */
     .fixed {
-        position: fixed !important;
+        /* position: fixed; */
         top: 0px !important;
         width: 100%;
         left: 0;
@@ -213,10 +216,7 @@ body {
         width: 90%;
         left: 50%;
         top: 20%;
-
         transform: translate(-50%, -50%);
-
-
     }
 }
 

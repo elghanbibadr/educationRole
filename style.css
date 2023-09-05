@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+
 
 
 /* CUSTOME STYLES */
@@ -257,5 +260,23 @@ body {
     }
 }
 
+
+
+.CopyrightText {
+
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 300;
+}
+
+footer a {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 300;
+    font-size: 12px !important;
+}
+
+footer li {
+    margin-block: 10px !important;
+
+}
 
 /* https://codepen.io/studiojvla/pen/qVbQqW */

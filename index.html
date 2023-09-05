@@ -582,7 +582,7 @@
     <footer>
         <div class="bg-darkBlue py-6 ">
             <div class="container"><img class="" src="/assets/setRecruitmentWhite.svg" alt="setRecruitment logo"></div>
-            <div class="container grid grid-cols-2 ">
+            <div class="container grid-container  ">
                 <!-- grid item -->
                 <ul class="text-white">
                     <li class="text-white text-[18px] font-medium">
@@ -595,8 +595,8 @@
                     <li> <a href="/candidates.html">Candidates</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
-                    <li class="text-white text-[18px] font-medium">
+                <ul class="text-white md:hidden">
+                    <li class=" text-white  text-[18px] font-medium">
                         <h6>Pages</h6>
                     </li>
                     <li> <a href="">Site Map</a> </li>
@@ -605,7 +605,7 @@
                     <li> <a href="">Terms & conditions</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white col-span-2 md:col-span-2">
+                <ul class="text-white col-span-2 md:col-span-2 md:col-start-3 md:row-start-2 ">
                     <li class="text-white text-[18px] font-medium">
                         <h6>Partners</h6>
                     </li>
@@ -615,7 +615,7 @@
                     </div>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white col-span-2">
+                <ul class="text-white col-span-2 md:col-start-1 md:row-start-2">
                     <li class="text-white text-[18px]  font-medium">
                         <h6>Email</h6>
                     </li>
@@ -623,8 +623,8 @@
                 </ul>
 
                 <!-- grid item -->
-                <ul class="text-white">
-                    <li class="text-white text-[18px] font-medium">
+                <ul class="text-white md:col-start-3 md:row-start-1">
+                    <li class=" text-white text-[18px] font-medium">
                         <h6>Swansea</h6>
                     </li>
                     <li> <a href="">Canolfan Gorseinon Centre</a> </li>
@@ -634,7 +634,7 @@
                     <li> <a href="">01792 342 948</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
+                <ul class="text-white md:col-start-2 md:row-start-1">
                     <li class="text-white text-[18px] font-medium">
                         <h6>Liantrisant</h6>
                     </li>
@@ -645,7 +645,7 @@
                     <li> <a href="">01443 230 222</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
+                <ul class="text-white md:col-start-4 md:row-start-1">
                     <!--      -->
                     <li class="text-white text-[18px] font-medium">
                         <h6>Cardiff</h6>
@@ -669,15 +669,17 @@
                     </ul>
                 </div>
                 <!-- grid item -->
-                <img class="w-full my-4 col-span-2" src="/assets/integration-logos_badges 1.svg"
+                <img class="w-full my-4 md:hidden col-span-2 " src="/assets/integration-logos_badges 1.svg"
                     alt="integration-logos_badges">
                 <!-- grid item -->
 
-                <div class="col-span-2 row-start-1">
+                <div class="col-span-2 relative bottom-[1rem] row-start-1 md:col-start-5 row-start-2 ">
                     <!-- </li> -->
+                    <img class="w-full my-4" src="/assets/integration-logos_badges 1.svg"
+                        alt="integration-logos_badges">
                     <h5 class="text-white text-[18px] my-4  font-medium">Can’t find what your looking for?
                     </h5>
-                    <form class="flex w-full rounded-md overflow-hidden">
+                    <form class="flex w-full rounded-md  overflow-hidden">
                         <input type="text" class="p-1 w-full outline-none">
                         <button class="bg-[#9493D2] text-white py-2 px-4">search</button>
                     </form>

@@ -89,10 +89,11 @@ footer li {
 
 @media screen and (min-width: 768px) {
     header {
-
         clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 25% 100%, 0 70%);
     }
+
 }
+
 
 
 
@@ -104,8 +105,8 @@ footer li {
 
 
 header {
-    position: relative;
-    margin-bottom: 3rem;
+    /* position: relative;
+    margin-bottom: 3rem; */
 }
 
 /* 
@@ -174,20 +175,13 @@ body {
 }
 
 
+
 .hidden {
     display: none;
+
 }
 
-.slides-container {
-    -ms-overflow-style: none;
-    /* Internet Explorer 10+ */
-    scrollbar-width: none;
-    /* Firefox */
-}
 
-.slide {
-    width: 300px !important;
-}
 
 .slides-container::-webkit-scrollbar {
     display: none;
@@ -246,13 +240,17 @@ body {
     animation: carousel 10s linear infinite;
 }
 
-.slide {
-    flex: 0 0 auto;
-    /* Adjust the width of each slide item as needed */
-    width: 300px !important;
-    padding: 0 8px;
-    /* Add space between slides as needed */
+@media screen and (min-width: 768px) {
+
+    .slide {
+        flex: 0 0 auto;
+        /* Adjust the width of each slide item as needed */
+        width: 300px !important;
+        padding: 0 8px;
+    }
 }
+
+/* Add space between slides as needed */
 
 @media screen and (min-width: 768px) {
     .slide {

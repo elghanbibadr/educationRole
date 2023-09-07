@@ -31,6 +31,8 @@ const slideWidth = slidesContainer.querySelector(".slide").clientWidth;
 const prevButton = document.querySelector(".prev");
 const nextButton = document.querySelector(".next");
 
+console.log(slideWidth)
+
 nextButton.addEventListener("click", () => {
     slidesContainer.scrollLeft += slideWidth;
 });

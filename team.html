@@ -34,35 +34,30 @@
 <body>
 
     <!-- HEADER  -->
-    <nav class=" h-[50px] p-2 bg-cardColor items-center flex justify-between md:hidden ">
 
-        <img class="h-20 w-40 p-2" src="/assets/setRecruitment.png" alt="setRecruitment logo">
-        <img id="closeIcon" class="h-16 cursor-pointer w-16 hidden  " src="/assets/close.svg" alt="close icon">
-        <img id="hamburgerIcon" class="h-16 w-16 cursor-pointer" src="/assets/menu.svg" alt="menu hamburger icon">
-    </nav>
-    <header
-        class="bg-[url(assets/meetTheTeamHeroBg.svg)] md:rounded-br-[300px] md:pt-10  md:px-6  h-[300px]  lg:h-[600px] bg-center md:h-[500px]  bg-cover bg-no-repeat bg-cover">
+    <header id="headerWitcurvedBackground"
+        class="bg-[url(assets/meetTheTeamHeroBg.svg)] md:rounded-br-[300px] md:pt-10  md:px-6  h-[500px]  lg:h-[600px] bg-center md:h-[500px]  bg-cover bg-no-repeat bg-cover">
 
         <div class="container">
             <!-- mobile navigation-->
-            <div class="flex   flex-col hidden md:flex items-center md:flex-row md:justify-between">
+            <div class="flex   items-center pt-2 justify-between">
                 <ul class="flex items-center  lg:w-[30%]">
                     <li class="mx-4"> <a href="#"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
                     <li class="mx-4"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a> </li>
                     <li class="mx-4"> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
                     <li class="mx-4 "> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /></a> </li>
                 </ul>
-                <div class="flex  items-center">
+                <div class="flex  mt-2 items-center">
                     <img class="relative bottom-1 mx-2" src="/assets/phoneIcon.svg" alt="phone icon">
                     <p class="text-white "><strong>Cardiff </strong> 01443 230 222
                     </p>
                 </div>
-                <div class="flex  items-center mx-4">
+                <div class="flex  items-center mx-4 hidden md:flex">
                     <img class="relative bottom-1 mx-2" src="/assets/phoneIcon.svg" alt="phone icon">
                     <p class="text-white "><strong>Liantrisant </strong> 01443 230 222
                     </p>
                 </div>
-                <div class="flex  items-center">
+                <div class="flex  items-center hidden md:flex">
                     <img class="relative bottom-1 mx-2" src="/assets/phoneIcon.svg" alt="phone icon">
                     <p class="text-white "><strong>Swansea </strong> 01443 230 222
                     </p>
@@ -70,23 +65,32 @@
             </div>
             <!-- Card with Links -->
             <div
-                class="bg-cardColor card shadow-purpleShadow px-6 navList hidden my-10   p-4 h-fit   md:flex flex-col items-center md:flex-row md:justify-between">
-                <img class="h-[56px] hidden md:block w-[120px] " src="/assets/setRecruitment.png" alt="">
+                class="bg-cardColor card shadow-purpleShadow  navbar  px-6   mt-10 md:mt-10   p-4 h-fit   md:flex  md:flex-row md:justify-between items-center">
+                <div class=" flex justify-between">
+                    <img class="h-[40px]  md:block md:h-[56px]   " src="/assets/setRecruitment.png"
+                        alt="set recruitment logo">
+        
+                    <img id="hamburgerIcon" class="h-16 w-16 hamburgerIcon cursor-pointer md:hidden"
+                        src="/assets/menu.svg" alt="menu hamburger icon">
+                    <img id="closeIcon" class="h-16 hidden md:hidden cursor-pointer w-16   " src="/assets/close.svg"
+                        alt="close icon">
+                </div>
                 <ul
-                    class="p-6 text-[1.6rem] text-center  md:flex md:items-center md:justify-between md:w-[90%] lg:w-[60%]">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="/client.html">Client</a></li>
-                    <li><a href="/candidates.html">Candidates</a></li>
-                    <li><a href="/team.html">Team</a></li>
-                    <li><a href="/testimonials.html">Testimonial</a></li>
+                    class="p-6 text-[1.6rem] text-left mt-6 hidden navList md:flex md:items-center md:justify-between md:w-[90%] lg:w-[60%] ">
+                    <li><a href="/">Home <span class="md:hidden">></span></a></li>
+                    <li><a href="about.html">About <span class="md:hidden">></span></a></li>
+                    <li><a href="client.html">Client <span class="md:hidden">></span></a></li>
+                    <li><a href="/candidates.html">Candidates <span class="md:hidden">></span></a></li>
+                    <li><a href="/team.html">Team <span class="md:hidden">></span> </a></li>
+                    <li><a href="/testimonials.html">Testimonial <span class="md:hidden">><span></a></li>
                     <li><a href="/contactUs.html"> <button
-                                class="bg-darkBlue font-bold px-7 py-4 text-white p-3 rounded-md">Contact Us</button>
+                                class="bg-darkBlue font-medium  py-6 text-white px-[2.4rem] rounded-md">Contact
+                                Us</button>
                         </a></li>
 
                 </ul>
             </div>
-            <div class=" text-center md:mt-20 md:text-left">
+            <div class="  mt-20 text-left">
                 <h1 class=" text-[4.6rem] text-white leading-[70px] md:text-[5.2rem]  lg:text-[6.8rem]">
                     Meet The Team </h1>
 
@@ -373,8 +377,10 @@
         <section class="container">
             <div class=" px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
                 <div>
+                    <h3 class="text-[2.5rem] my-10 md:hidden font-bold">Reviews</h3>
 
-                    <img class="md:w-[80%] md:mx-auto" src="assets/reviewheader.JPG" alt="review header ">
+                    <img class="md:w-[80%] hidden md:block md:mx-auto" src="assets/reviewheader.JPG"
+                        alt="review header ">
                 </div>
                 <div class="relative">
                     <div
@@ -466,35 +472,60 @@
                         </button>
                     </div>
                 </div>
+                <img class="md:w-[80%] md:hidden" src="assets/reviewheader.JPG" alt="review header ">
+
             </div>
         </section>
     </main>
     <!-------------------- FOOTER ---------------->
     <footer>
-        <div class="bg-darkBlue ">
+        <div class="bg-darkBlue py-6 ">
             <div class="container"><img src="/assets/SET Recruitment White 1.png" alt="setRecruitment logo"></div>
-            <div class="container grid-container ">
+            <div class="container grid-container  ">
                 <!-- grid item -->
                 <ul class="text-white">
-                    <li class="text-white text-[18px] font-bold">Set </li>
-                    <li> <a href="/about">About Us</a> </li>
-                    <li> <a href="/team">Team</a> </li>
-                    <li> <a href="/testimonials">Testimonials</a> </li>
-                    <li> <a href="clients">Clients</a> </li>
-                    <li> <a href="candidate">Candidates</a> </li>
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Set</h6>
+                    </li>
+                    <li> <a href="/about.html">About Us</a> </li>
+                    <li> <a href="/team.html">Team</a> </li>
+                    <li> <a href="/testimonials.html">Testimonials</a> </li>
+                    <li> <a href="/client.html">Clients</a> </li>
+                    <li> <a href="/candidates.html">Candidates</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
-                    <li class="text-white text-[18px] font-bold">Llantrisant Branch </li>
-                    <li> <a href="">Unit 1 & 2 Magden Park</a> </li>
-                    <li> <a href="">Llantrisant</a> </li>
-                    <li> <a href="">Rhondda Cynon Taf</a> </li>
-                    <li> <a href="">CF72 8XT</a> </li>
-                    <li> <a href="">01443 230 222</a> </li>
+                <ul class="text-white md:hidden">
+                    <li class=" text-white  text-[18px] font-medium">
+                        <h6>Pages</h6>
+                    </li>
+                    <li> <a href="">Site Map</a> </li>
+                    <li> <a href="">Privacy Policy</a> </li>
+                    <li> <a href="">Cookie Policy</a> </li>
+                    <li> <a href="">Terms & conditions</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
-                    <li class="text-white text-[18px] font-bold">Swansea Branch</li>
+                <ul class="text-white col-span-2 md:col-span-2 md:col-start-3 md:row-start-2 ">
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Partners</h6>
+                    </li>
+                    <div class="flex items-center  gap-4">
+                        <li> <a href="" class="underline">MPS Healthcare</a> </li>
+                        <li> <a href="" class="underline">NRW Recruitment</a> </li>
+                    </div>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white col-span-2 md:col-start-1 md:row-start-2">
+                    <li class="text-white text-[18px]  font-medium">
+                        <h6>Email</h6>
+                    </li>
+                    <li> <a href="">enquiries@networkrecruitmentwales.co.uk</a> </li>
+                </ul>
+
+                <!-- grid item -->
+                <ul class="text-white md:col-start-3 md:row-start-1">
+                    <li class=" text-white text-[18px] font-medium">
+                        <h6>Swansea</h6>
+                    </li>
                     <li> <a href="">Canolfan Gorseinon Centre</a> </li>
                     <li> <a href="">Gorseinon</a> </li>
                     <li> <a href="">Swansea</a> </li>
@@ -502,9 +533,22 @@
                     <li> <a href="">01792 342 948</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
+                <ul class="text-white md:col-start-2 md:row-start-1">
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Liantrisant</h6>
+                    </li>
+                    <li> <a href="">Unit 1 & 2 Magden Park</a> </li>
+                    <li> <a href="">Llantrisant</a> </li>
+                    <li> <a href="">Rhondda Cynon Taf</a> </li>
+                    <li> <a href="">CF72 8XT</a> </li>
+                    <li> <a href="">01443 230 222</a> </li>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white md:col-start-4 md:row-start-1">
                     <!--      -->
-                    <li class="text-white text-[18px] font-bold">Cardiff Branch</li>
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Cardiff</h6>
+                    </li>
                     <li> <a href="">3rd Floor</a> </li>
                     <li> <a href="">Castlebridge 2</a> </li>
                     <li> <a href="">Cardiff</a> </li>
@@ -513,44 +557,41 @@
                 </ul>
                 <!-- grid item -->
                 <div>
-                    <img src="/assets/integration-logos_badges 1.png" alt=""> </li>
-                    <h5 class="text-white text-[18px] my-4 font-bold">Can’t find what your looking for?</h5>
-                    <form class="flex">
-                        <input type="text" class="p-1 outline-none">
+                    <h6 class="text-[18px] text-white mt-4 font-medium">Follow Us</h6>
+                    <ul class="flex">
+                        <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a>
+                        </li>
+                        <li> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /> </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- grid item -->
+                <img class="w-full my-4 md:hidden col-span-2 " src="/assets/integration-logos_badges 1.svg"
+                    alt="integration-logos_badges">
+                <!-- grid item -->
+
+                <div class="col-span-2 relative bottom-[1rem] row-start-1 md:col-start-5 row-start-2 ">
+                    <!-- </li> -->
+                    <img class="w-full hidden md:block my-4" src="/assets/integration-logos_badges 1.svg"
+                        alt="integration-logos_badges">
+                    <h5 class="text-white text-[18px] my-4  font-medium">Can’t find what your looking for?
+                    </h5>
+                    <form class="flex w-full rounded-md  overflow-hidden">
+                        <input type="text" class="p-1 w-full outline-none">
                         <button class="bg-[#9493D2] text-white py-2 px-4">search</button>
                     </form>
                 </div>
-                <!-- grid item -->
-                <ul class="text-white md:col-span-2">
-                    <li class="text-white text-[18px]  font-bold">Email</li>
-                    <li> <a href="">enquiries@networkrecruitmentwales.co.uk</a> </li>
-                </ul>
-                <!-- grid item -->
-                <ul class="text-white  md:col-span-2">
-                    <li class="text-white text-[18px] font-bold">Partners</li>
-                    <div class="flex items-center  gap-4">
-                        <li> <a href="">MPS Healthcare</a> </li>
-                        <li> <a href="">NRW Recruitment</a> </li>
-                    </div>
-                </ul>
-                <ul class=" flex ">
-                    <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
-                    <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a> </li>
-                    <li> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
-                    <li class="mx-6"> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /> </a> </li>
-                </ul>
+
+
             </div>
         </div>
-        <div class="bg-neutralBg">
-            <div class="container">
-                <ul
-                    class="flex flex-col md:flex-row cursor-pointer items-center md:justify-between   text-[1.4rem] text-[#010101]">
-                    <li>Privacy Policy</li>
-                    <li>Cookie Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Site Map</li>
-                    <li>Copyright Network Recruitment Wales 2023 - Website by The Web Designer Cardiff</li>
-                </ul>
+        <div class="bg-[#282828]">
+            <div class="container text-center py-6">
+                <p class="text-white CopyrightText text-[1.4rem] ">Copyright Network Recruitment Wales 2023 - Website by
+                    The Web
+                    Designer Cardiff</p>
             </div>
         </div>
     </footer>

@@ -34,12 +34,7 @@
 <body>
 
     <!-- HEADER  -->
-    <nav class=" h-[50px] p-2 bg-cardColor items-center flex justify-between md:hidden ">
 
-        <img class="h-20 w-40 p-2" src="/assets/setRecruitment.png" alt="setRecruitment logo">
-        <img id="closeIcon" class="h-16 cursor-pointer w-16 hidden  " src="/assets/close.svg" alt="close icon">
-        <img id="hamburgerIcon" class="h-16 w-16 cursor-pointer" src="/assets/menu.svg" alt="menu hamburger icon">
-    </nav>
     <header
         class="bg-[url(assets/candidatesHeaderBg.svg)] md:rounded-br-[300px] md:pt-10  md:px-6  h-[300px]  lg:h-[600px] bg-center md:h-[500px]  bg-cover bg-no-repeat bg-cover">
 
@@ -144,8 +139,10 @@
         <section class="container">
             <div class=" px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
                 <div>
+                    <h3 class="text-[2.5rem] my-10 md:hidden font-bold">Reviews</h3>
 
-                    <img class="md:w-[80%] md:mx-auto" src="assets/reviewheader.JPG" alt="review header ">
+                    <img class="md:w-[80%] hidden md:block md:mx-auto" src="assets/reviewheader.JPG"
+                        alt="review header ">
                 </div>
                 <div class="relative">
                     <div
@@ -237,6 +234,8 @@
                         </button>
                     </div>
                 </div>
+                <img class="md:w-[80%] md:hidden" src="assets/reviewheader.JPG" alt="review header ">
+
             </div>
         </section>
     </main>

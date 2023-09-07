@@ -106,6 +106,7 @@ header {
         bottom: -0.3%;
         left: 0;
         background-size: auto;
+        /* z-index: -10; */
         background-repeat: repeat no-repeat;
         background-position: 5vw bottom;
         background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  108' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 79L50 74C100 69 200 60 300 40C400 21 500 -8 600 1C700 11 800 60 900 79C1000 99 1100 89 1150 84L1200 79V108H1150C1100 108 1000 108 900 108C800 108 700 108 600 108C500 108 400 108 300 108C200 108 100 108 50 108H0V79Z' fill='white'/></svg>");

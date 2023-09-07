@@ -69,7 +69,7 @@
                 <div class=" flex justify-between">
                     <img class="h-[40px]  md:block md:h-[56px]   " src="/assets/setRecruitment.png"
                         alt="set recruitment logo">
-        
+
                     <img id="hamburgerIcon" class="h-16 w-16 hamburgerIcon cursor-pointer md:hidden"
                         src="/assets/menu.svg" alt="menu hamburger icon">
                     <img id="closeIcon" class="h-16 hidden md:hidden cursor-pointer w-16   " src="/assets/close.svg"
@@ -524,7 +524,7 @@
                 <!-- grid item -->
                 <ul class="text-white md:col-start-3 md:row-start-1">
                     <li class=" text-white text-[18px] font-medium">
-                        <h6>Swansea</h6>
+                        <h6>Swansea <span class="hidden md:inline-block">Branch</span></h6>
                     </li>
                     <li> <a href="">Canolfan Gorseinon Centre</a> </li>
                     <li> <a href="">Gorseinon</a> </li>
@@ -535,7 +535,7 @@
                 <!-- grid item -->
                 <ul class="text-white md:col-start-2 md:row-start-1">
                     <li class="text-white text-[18px] font-medium">
-                        <h6>Liantrisant</h6>
+                        <h6>Liantrisant <span class="hidden md:inline-block">Branch</span> </h6>
                     </li>
                     <li> <a href="">Unit 1 & 2 Magden Park</a> </li>
                     <li> <a href="">Llantrisant</a> </li>
@@ -547,7 +547,7 @@
                 <ul class="text-white md:col-start-4 md:row-start-1">
                     <!--      -->
                     <li class="text-white text-[18px] font-medium">
-                        <h6>Cardiff</h6>
+                        <h6>Cardiff <span class="hidden md:inline-block">Branch</span></h6>
                     </li>
                     <li> <a href="">3rd Floor</a> </li>
                     <li> <a href="">Castlebridge 2</a> </li>
@@ -556,8 +556,8 @@
                     <li> <a href="">02920 670 832</a> </li>
                 </ul>
                 <!-- grid item -->
-                <div>
-                    <h6 class="text-[18px] text-white mt-4 font-medium">Follow Us</h6>
+                <div class="md:hidden">
+                    <h6 class="text-[18px]  text-white mt-4 font-medium">Follow Us</h6>
                     <ul class="flex">
                         <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
                         <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a>
@@ -568,11 +568,11 @@
                     </ul>
                 </div>
                 <!-- grid item -->
-                <img class="w-full my-4 md:hidden col-span-2 " src="/assets/integration-logos_badges 1.svg"
+                <img class="w-full  my-4 md:hidden col-span-2 " src="/assets/integration-logos_badges 1.svg"
                     alt="integration-logos_badges">
                 <!-- grid item -->
 
-                <div class="col-span-2 relative bottom-[1rem] row-start-1 md:col-start-5 row-start-2 ">
+                <div class="col-span-2 relative bottom-[1rem] row-start-1 md:col-start-5  ">
                     <!-- </li> -->
                     <img class="w-full hidden md:block my-4" src="/assets/integration-logos_badges 1.svg"
                         alt="integration-logos_badges">
@@ -582,16 +582,34 @@
                         <input type="text" class="p-1 w-full outline-none">
                         <button class="bg-[#9493D2] text-white py-2 px-4">search</button>
                     </form>
+                    <ul class="flex hidden mt-6 md:flex">
+                        <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a>
+                        </li>
+                        <li> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /> </a>
+                        </li>
+                    </ul>
                 </div>
-
-
             </div>
         </div>
-        <div class="bg-[#282828]">
+        <div class="bg-[#282828] md:hidden">
             <div class="container text-center py-6">
                 <p class="text-white CopyrightText text-[1.4rem] ">Copyright Network Recruitment Wales 2023 - Website by
                     The Web
                     Designer Cardiff</p>
+            </div>
+        </div>
+        <div class=" hidden md:block bg-neutralBg">
+            <div class="container">
+                <ul
+                    class="flex flex-col md:flex-row cursor-pointer items-center md:justify-between   text-[1.4rem] text-[#010101]">
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Site Map</li>
+                    <li>Copyright Network Recruitment Wales 2023 - Website by The Web Designer Cardiff</li>
+                </ul>
             </div>
         </div>
     </footer>

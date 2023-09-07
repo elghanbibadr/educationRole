@@ -241,30 +241,53 @@
     </main>
     <!-------------------- FOOTER ---------------->
     <footer>
-        <div class="bg-darkBlue ">
+        <div class="bg-darkBlue py-6 ">
             <div class="container"><img src="/assets/SET Recruitment White 1.png" alt="setRecruitment logo"></div>
-            <div class="container grid-container ">
+            <div class="container grid-container  ">
                 <!-- grid item -->
                 <ul class="text-white">
-                    <li class="text-white text-[18px] font-bold">Set </li>
-                    <li> <a href="/about">About Us</a> </li>
-                    <li> <a href="/team">Team</a> </li>
-                    <li> <a href="/testimonials">Testimonials</a> </li>
-                    <li> <a href="clients">Clients</a> </li>
-                    <li> <a href="candidate">Candidates</a> </li>
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Set</h6>
+                    </li>
+                    <li> <a href="/about.html">About Us</a> </li>
+                    <li> <a href="/team.html">Team</a> </li>
+                    <li> <a href="/testimonials.html">Testimonials</a> </li>
+                    <li> <a href="/client.html">Clients</a> </li>
+                    <li> <a href="/candidates.html">Candidates</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
-                    <li class="text-white text-[18px] font-bold">Llantrisant Branch </li>
-                    <li> <a href="">Unit 1 & 2 Magden Park</a> </li>
-                    <li> <a href="">Llantrisant</a> </li>
-                    <li> <a href="">Rhondda Cynon Taf</a> </li>
-                    <li> <a href="">CF72 8XT</a> </li>
-                    <li> <a href="">01443 230 222</a> </li>
+                <ul class="text-white md:hidden">
+                    <li class=" text-white  text-[18px] font-medium">
+                        <h6>Pages</h6>
+                    </li>
+                    <li> <a href="">Site Map</a> </li>
+                    <li> <a href="">Privacy Policy</a> </li>
+                    <li> <a href="">Cookie Policy</a> </li>
+                    <li> <a href="">Terms & conditions</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
-                    <li class="text-white text-[18px] font-bold">Swansea Branch</li>
+                <ul class="text-white col-span-2 md:col-span-2 md:col-start-3 md:row-start-2 ">
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Partners</h6>
+                    </li>
+                    <div class="flex items-center  gap-4">
+                        <li> <a href="" class="underline">MPS Healthcare</a> </li>
+                        <li> <a href="" class="underline">NRW Recruitment</a> </li>
+                    </div>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white col-span-2 md:col-start-1 md:row-start-2">
+                    <li class="text-white text-[18px]  font-medium">
+                        <h6>Email</h6>
+                    </li>
+                    <li> <a href="">enquiries@networkrecruitmentwales.co.uk</a> </li>
+                </ul>
+
+                <!-- grid item -->
+                <ul class="text-white md:col-start-3 md:row-start-1">
+                    <li class=" text-white text-[18px] font-medium">
+                        <h6>Swansea <span class="hidden md:inline-block">Branch</span></h6>
+                    </li>
                     <li> <a href="">Canolfan Gorseinon Centre</a> </li>
                     <li> <a href="">Gorseinon</a> </li>
                     <li> <a href="">Swansea</a> </li>
@@ -272,9 +295,22 @@
                     <li> <a href="">01792 342 948</a> </li>
                 </ul>
                 <!-- grid item -->
-                <ul class="text-white">
+                <ul class="text-white md:col-start-2 md:row-start-1">
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Liantrisant <span class="hidden md:inline-block">Branch</span> </h6>
+                    </li>
+                    <li> <a href="">Unit 1 & 2 Magden Park</a> </li>
+                    <li> <a href="">Llantrisant</a> </li>
+                    <li> <a href="">Rhondda Cynon Taf</a> </li>
+                    <li> <a href="">CF72 8XT</a> </li>
+                    <li> <a href="">01443 230 222</a> </li>
+                </ul>
+                <!-- grid item -->
+                <ul class="text-white md:col-start-4 md:row-start-1">
                     <!--      -->
-                    <li class="text-white text-[18px] font-bold">Cardiff Branch</li>
+                    <li class="text-white text-[18px] font-medium">
+                        <h6>Cardiff <span class="hidden md:inline-block">Branch</span></h6>
+                    </li>
                     <li> <a href="">3rd Floor</a> </li>
                     <li> <a href="">Castlebridge 2</a> </li>
                     <li> <a href="">Cardiff</a> </li>
@@ -282,36 +318,51 @@
                     <li> <a href="">02920 670 832</a> </li>
                 </ul>
                 <!-- grid item -->
-                <div>
-                    <img src="/assets/integration-logos_badges 1.png" alt=""> </li>
-                    <h5 class="text-white text-[18px] my-4 font-bold">Can’t find what your looking for?</h5>
-                    <form class="flex">
-                        <input type="text" class="p-1 outline-none">
-                        <button class="bg-[#9493D2] text-white py-2 px-4">search</button>
-                    </form>
+                <div class="md:hidden">
+                    <h6 class="text-[18px]  text-white mt-4 font-medium">Follow Us</h6>
+                    <ul class="flex">
+                        <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a>
+                        </li>
+                        <li> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /> </a>
+                        </li>
+                    </ul>
                 </div>
                 <!-- grid item -->
-                <ul class="text-white md:col-span-2">
-                    <li class="text-white text-[18px]  font-bold">Email</li>
-                    <li> <a href="">enquiries@networkrecruitmentwales.co.uk</a> </li>
-                </ul>
+                <img class="w-full  my-4 md:hidden col-span-2 " src="/assets/integration-logos_badges 1.svg"
+                    alt="integration-logos_badges">
                 <!-- grid item -->
-                <ul class="text-white  md:col-span-2">
-                    <li class="text-white text-[18px] font-bold">Partners</li>
-                    <div class="flex items-center  gap-4">
-                        <li> <a href="">MPS Healthcare</a> </li>
-                        <li> <a href="">NRW Recruitment</a> </li>
-                    </div>
-                </ul>
-                <ul class=" flex ">
-                    <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
-                    <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a> </li>
-                    <li> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
-                    <li class="mx-6"> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /> </a> </li>
-                </ul>
+
+                <div class="col-span-2 relative bottom-[1rem] row-start-1 md:col-start-5  ">
+                    <!-- </li> -->
+                    <img class="w-full hidden md:block my-4" src="/assets/integration-logos_badges 1.svg"
+                        alt="integration-logos_badges">
+                    <h5 class="text-white text-[18px] my-4  font-medium">Can’t find what your looking for?
+                    </h5>
+                    <form class="flex w-full rounded-md  overflow-hidden">
+                        <input type="text" class="p-1 w-full outline-none">
+                        <button class="bg-[#9493D2] text-white py-2 px-4">search</button>
+                    </form>
+                    <ul class="flex hidden mt-6 md:flex">
+                        <li> <a href=" #"> <img src="assets/twitter.svg" alt="twiiter icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/facebookIcon.svg" alt="facebook icon" /> </a>
+                        </li>
+                        <li> <a href="#"> <img src="assets/linkedin.svg" alt="linkedin icon" /> </a> </li>
+                        <li class="mx-6"> <a href="#"> <img src="assets/instagram.svg" alt="instagram icon" /> </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="bg-neutralBg">
+        <div class="bg-[#282828] md:hidden">
+            <div class="container text-center py-6">
+                <p class="text-white CopyrightText text-[1.4rem] ">Copyright Network Recruitment Wales 2023 - Website by
+                    The Web
+                    Designer Cardiff</p>
+            </div>
+        </div>
+        <div class=" hidden md:block bg-neutralBg">
             <div class="container">
                 <ul
                     class="flex flex-col md:flex-row cursor-pointer items-center md:justify-between   text-[1.4rem] text-[#010101]">

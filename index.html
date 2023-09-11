@@ -35,8 +35,8 @@
 
     <!-- HEADER  -->
 
-    <header id="headerWitcurvedBackground"
-        class=" bg-[url(/assets/heroBg.png)]  md:rounded-br-[300px]  md:pt-10  md:px-6 h-[500px]  md:h-[500px]  lg:h-[700px]  bg-contain bg-no-repeat bg-cover">
+    <header
+        class=" bg-[url(/assets/heroBgwavedMobile.png)] md:bg-[url(/assets/heroBg.png)]  md:rounded-br-[300px]  md:pt-10  md:px-6 h-[600px]  md:h-[500px]  lg:h-[700px]  bg-contain bg-no-repeat bg-cover">
         <div class="container">
             <!-- mobile navigation-->
             <div class="flex   items-center pt-2 justify-between">
@@ -116,14 +116,15 @@
     <!-- Main -->
     <main>
         <!-- features section -->
-        <section class="container   relative bottom-4 md:bottom-20 lg:bottom-[17rem]">
-            <div class="   bg-white    p-10 card shadow-purpleShadow  rounded-md md:grid md:grid-cols-2">
-                <div class=" self-end  mb-5 md:col-start-2 relative left-10  justify-self-end">
-                    <img class="mx-auto mt-6 z-10" src="/assets/girlWithPurpleOverlayBg.svg" alt="girl image">
+        <section class="container   relative bottom-10 md:bottom-20 lg:bottom-[17rem]">
+            <div class="   bg-white     card shadow-purpleShadow  roundedForMobile md:grid md:grid-cols-2">
+                <div class=" md:self-end relative md:left-10  right-10 md:justify-self-end  mb-5 md:col-start-2 ">
+                    <img class="mx-auto hidden md:block mt-6 z-10" src="/assets/girlWithPurpleOverlayBg.svg"
+                        alt="girl image">
+                    <img class=" md:hidden mt-6 z-10" src="/assets/girlewithpurpleoverlayMobile.svg" alt="girl image">
                 </div>
-                <div class="text-center md:col-start-1 md:row-start-1  md:text-left self-center ">
-                    <h2
-                        class=" text-[2.8rem] md:text-[3.2rem] text-[#090A09] leading-[3.8rem] text-center md:text-left ">
+                <div class=" md:col-start-1 md:row-start-1  text-left self-center ">
+                    <h2 class=" text-[2.8rem] md:text-[3.2rem] text-[#090A09] leading-[3.8rem] text-left ">
                         Ready to find
                         your new role in
                         education
@@ -137,75 +138,109 @@
                         possible temporary staff, backed with an excellent service that is available 24 hours a day, 7
                         days
                         a week, 365 days a year.</p>
-                    <div class="flex flex-col items-center md:flex-row justify-between h-[100px]">
-                        <a href="/contactUs.html"><button class="bg-darkBlue px-6 py-3 text-white  rounded-md">Contact
+                    <!--  -->
+                    <div class="md:flex  md:items-center md:flex-row justify-between h-[100px]">
+                        <a href="/contactUs.html"><button class="bg-darkBlue px-7 py-4 text-white  rounded-md">Contact
                                 Us</button></a>
-                        <img class=" my-6 md:my-0 md:self-end" src="/assets/integration-logos_badges 1.png" alt="">
+                        <img class=" hidden md:block md:my-0 md:self-center"
+                            src="/assets/integration-logos_badges 1.png" alt="integration-logos_badges">
                     </div>
                 </div>
             </div>
             <!-- features grid -->
-            <div class="md:grid md:gap-6 md:grid-cols-3 mt-6">
-                <div class="card shadow-purpleShadow  flex  gap-6 items-center h-[100px] p-6 rounded-md">
-                    <h3 class="text-darkBlue font-bold text-3xl xl:text-5xl">01%</h3>
-                    <p class="col-span-2 text-[1.3rem] leading-[2rem]">of our candidates our placed into their first
+            <div class=" md:grid md:gap-6 md:grid-cols-3 mt-6">
+                <div class="card roundedForMobile shadow-purpleShadow  flex  gap-2 lg:gap-10 items-center h-[100px]  ">
+                    <h3 class="text-darkBlue font-bold text-[40px] ml-20 md:ml-0">0%</h3>
+                    <p class="col-span-2 relative left-4 md:left-0 w-1/2  md:w-full text-[1.3rem] leading-[2rem]">of our
+                        candidates our
+                        placed
+                        into their
+                        first
                         placement within 1
                         week of being
                         cleared</p>
                 </div>
                 <div
-                    class="card shadow-purpleShadow my-[10px] md:my-[0px] flex gap-6 items-center h-[100px] p-6 rounded-md">
-                    <h3 class="text-darkBlue font-bold text-3xl xl:text-5xl">01%</h3>
-                    <p class="col-span-2 text-[1.3rem] leading-[2rem]">An average Applicant achieves 100% compliance
-                        within 9 Days using our Onboarding Platform</p>
-
-
+                    class="card roundedForMobile my-10 md:my-0 shadow-purpleShadow  flex  gap-2 lg:gap-10 items-center h-[100px]  ">
+                    <h3 class="text-darkBlue font-bold text-[40px] ml-20 md:ml-0">0%</h3>
+                    <p class="col-span-2 relative left-4 md:left-0 w-1/2  md:w-full text-[1.3rem] leading-[2rem]">of our
+                        candidates our
+                        placed
+                        into their
+                        first
+                        placement within 1
+                        week of being
+                        cleared</p>
                 </div>
-                <div class="card shadow-purpleShadow  flex gap-6 items-center h-[100px] p-6 rounded-md">
-                    <h3 class="text-darkBlue font-bold text-3xl xl:text-5xl">01%</h3>
-                    <p class="col-span-2 text-[1.3rem] leading-[2rem]">of candidates are working on long term
-                        assignments reinforcing the quality of the candidate we place.</p>
+                <div class="card roundedForMobile shadow-purpleShadow  flex  gap-2 lg:gap-10 items-center h-[100px]  ">
+                    <h3 class="text-darkBlue font-bold text-[40px] ml-20 md:ml-0">0%</h3>
+                    <p class="col-span-2 relative left-4 md:left-0 w-1/2  md:w-full text-[1.3rem] leading-[2rem]">of our
+                        candidates our
+                        placed
+                        into their
+                        first
+                        placement within 1
+                        week of being
+                        cleared</p>
                 </div>
+
             </div>
         </section>
 
         <!---------------------- WHAT WE OFFRE --------------------->
-        <section class="bg-darkBlue slider px-4 py-8  ">
-            <div class="slide-track">
-                <!-- offre item -->
-                <div class="flex  slide">
-                    <span class=" bg-white inline-flex justify-center items-center h-7 p-1 w-7 rounded-full ">
-                        <img src=" assets/purplecheckIcon.svg" alt="check icon">
-                    </span>
-                    <p class="text-cardColor  text[#111] mx-2">Qualified Teachers</p>
-                </div>
-                <!-- offre item -->
-                <div class="flex slide ">
-                    <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
-                        <img src="assets/purplecheckIcon.svg" alt="check icon">
-                    </span>
-                    <p class="text-cardColor text[#111] mx-2">Newly Qualified Teacher (NQT)</p>
-                </div>
-                <!-- offre item -->
-                <div class="flex items-center slide">
-                    <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
-                        <img src="assets/purplecheckIcon.svg" alt="check icon">
-                    </span>
-                    <p class="text-cardColor  text-[#111] mx-2">Learning Support Assistant</p>
-                </div>
-                <!-- offre item -->
-                <div class="flex items-center slide">
-                    <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
-                        <img src="assets/purplecheckIcon.svg" alt="check icon">
-                    </span>
-                    <p class="text-cardColor mx-2 ">Additional Learning Needs </p>
-                </div>
-                <!-- offre item -->
-                <div class="flex items-center slide">
-                    <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
-                        <img src="assets/purplecheckIcon.svg" alt="check icon">
-                    </span>
-                    <p class="text-cardColor  text-[#111] mx-2">Cover Supervisors</p>
+        <section id="logos-home-page" class="bg-darkBlue  px-4 py-8 ">
+            <div class="slider">
+                <div class=" slide-track ">
+                    <!-- offre item -->
+                    <div class=" flex  slide">
+                        <span class=" bg-white inline-flex justify-center items-center h-7 p-1 w-7 rounded-full ">
+                            <img src=" assets/purplecheckIcon.svg" alt="check icon">
+                        </span>
+                        <p class="text-cardColor  text[#111] mx-2">Registered Nurses</p>
+                    </div>
+                    <!-- offre item -->
+                    <div class="flex slide ">
+                        <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                            <img src="assets/purplecheckIcon.svg" alt="check icon">
+                        </span>
+                        <p class="text-cardColor text[#111] mx-2">Registered Mental Health Nurse</p>
+                    </div>
+                    <!-- offre item -->
+                    <div class="flex items-center slide">
+                        <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                            <img src="assets/purplecheckIcon.svg" alt="check icon">
+                        </span>
+                        <p class="text-cardColor  text-[#111] mx-2">Registered Children’s Nurse</p>
+                    </div>
+                    <!-- offre item -->
+                    <div class="flex items-center slide">
+                        <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                            <img src="assets/purplecheckIcon.svg" alt="check icon">
+                        </span>
+                        <p class="text-cardColor mx-2 ">Primary Care Nurse </p>
+                    </div>
+                    <!-- offre item -->
+                    <div class="flex items-center slide">
+                        <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                            <img src="assets/purplecheckIcon.svg" alt="check icon">
+                        </span>
+                        <p class="text-cardColor  text-[#111] mx-2">Health Care Support Worker</p>
+                    </div>
+                    <!-- offre item -->
+                    <div class="flex items-center slide">
+                        <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                            <img src="assets/purplecheckIcon.svg" alt="check icon">
+                        </span>
+                        <p class="text-cardColor  text-[#111] mx-2">Phlebotomist</p>
+                    </div>
+                    <!-- offre item -->
+                    <div class="flex items-center slide">
+                        <span class="bg-white  inline-flex justify-center items-center h-7 p-1  w-7 rounded-full ">
+                            <img src="assets/purplecheckIcon.svg" alt="check icon">
+                        </span>
+                        <p class="text-cardColor  text-[#111] mx-2">Qualified social worker</p>
+                    </div>
+
                 </div>
             </div>
         </section>

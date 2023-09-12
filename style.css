@@ -340,4 +340,16 @@ footer li {
 .wherewesupply p {
     font-size: 1.4rem;
     margin-left: 5px;
+
+
+}
+
+.reviewsSlide {
+    width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+    .reviewsSlide {
+        width: 300px !important;
+    }
 }

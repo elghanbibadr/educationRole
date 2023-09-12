@@ -144,7 +144,34 @@ body {
     height: 600px !important;
 }
 
+/* @font-face {
+    font-family: 'textFonts';
+    src: url('assets/fonts/HelveticaNeueMed.ttf') format('truetype');
+} */
 
+@font-face {
+    font-family: 'textFonts';
+    src: url('assets/fonts/HelveticaNeue\ Light.ttf') format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'medium helvetica neue';
+    src: url('assets/fonts/HelveticaNeue\ Medium.ttf') format('truetype');
+}
+
+
+body {
+    font-family: "medium helvetica neue";
+}
+
+p {
+    font-family: "textFonts" !important;
+}
+
+
+/* .font-bold {} */
 
 /* contact us section */
 .contactUsForm input {
@@ -377,7 +404,7 @@ body {
 .video-header {
     position: relative;
     overflow: hidden;
-    height: 70vh !important;
+    /* height: 70vh !important; */
     /* Adjust as needed */
 }
 
@@ -387,7 +414,6 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: red !important;
     height: 100%;
     object-fit: cover;
     /* Ensures the video covers the entire header */

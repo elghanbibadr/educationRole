@@ -34,7 +34,8 @@
 <body>
 
     <!-- HEADER  -->
-    <header class="video-header bg-url(assets/Purpleoverlay.svg)">
+    <header class="video-header relative md:h-[120vh]  ">
+        <img class="absolute w-full inset-0" src="/assets/Purple overlay.svg" alt="">
         <video playsinline autoplay muted loop poster="/assets/herobg.png" class="video-background">
             <source src="/assets/AdobeStock_243409774.mov" type="video/mp4">
             Your browser does not support the video tag.
@@ -65,9 +66,9 @@
                 </div>
                 <!-- Card with Links -->
                 <div
-                    class="bg-cardColor card shadow-purpleShadow navbar px-6 mt-10 md:mt-10 p-4 h-fit md:flex md:flex-row md:justify-between items-center">
+                    class="bg-cardColor h-[42px] shadow-purpleShadow navbar rounded-[10px] px-6 mt-6 md:mt-10 p-4 h-fit md:flex md:flex-row md:justify-between items-center">
                     <div class=" flex justify-between">
-                        <img class="h-[40px] md:block md:h-[56px]" src="/assets/setRecruitment.png"
+                        <img class=" h-[40px] md:block md:h-[56px]" src="/assets/setRecruitment.png"
                             alt="set recruitment logo">
                         <img id="hamburgerIcon" class="h-16 w-16 hamburgerIcon cursor-pointer md:hidden"
                             src="/assets/menu.svg" alt="menu hamburger icon">
@@ -89,22 +90,28 @@
                 </div>
                 <!-- set recruitment -->
                 <div class="md:mt-20 text-left flex flex-col mt-10 items-center md:flex-row justify-between">
-                    <div class="flex mb-6 self-start lg:flex-col md:order-2 md:self-end">
-                        <div class="bg-white mx-3 w-fit p-1 rounded-md">
-                            <img src="/assets/Welsh_Government_logo 2.png" alt="Welsh Government logo">
+                    <div class="flex mb-6 self-start lg:flex-col md:order-2 md:self-end md:relative md:top-24 ">
+                        <div class="bg-white md:mb-6  h-[44px] mx-3 w-fit p-2 md:h-[90px] md:w-[90px]  rounded-md">
+                            <img class=" object-cover" src="/assets/Welsh_Government_logo 2.png"
+                                alt="Welsh Government logo">
                         </div>
-                        <p class="text-[1rem] text-white mt-3">SET is a Registered <br>Framework Agency</p>
+
+
+                        <p class="text-[1.3rem] text-white ">SET is a Registered <br>Framework Agency</p>
                     </div>
                     <div class="text-left self-start ">
                         <h1 class="text-[4.6rem] text-white leading-[70px] md:text-[5.2rem] lg:text-[6.8rem]">
                             <p class="text-[2rem] subheading "> WE ARE</p> SET <br class="hidden lg:block"> Recruitment
                         </h1>
-                        <p class="text-[#FEFEFE] text-[1.4rem] leading-[24px] md:text-[1.6rem] my-3 ">Elevating careers,
+                        <p class="text-[#FEFEFE] text-[1.6rem]  leading-[24px] md:text-[1.6rem] my-3 ">
+                            Elevating careers,
                             the right way. SET Recruitment are a trusted<br />Welsh Government Framework Agency. </p>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </header>
 
 
@@ -113,7 +120,7 @@
     <!-- Main -->
     <main>
         <!-- features section -->
-        <section class="container   relative bottom-10 md:bottom-20 lg:bottom-[9rem] ">
+        <section class="container  -z-1  relative bottom-10 md:bottom-20 lg:bottom-[20rem]  ">
             <div class="   bg-white     card shadow-purpleShadow  roundedForMobile md:grid md:grid-cols-2">
                 <div class=" md:self-end relative md:left-8  right-10 md:justify-self-end  mb-5 md:col-start-2 ">
                     <img class="mx-auto hidden md:block mt-6 z-10" src="/assets/girlWithPurpleOverlayBg.svg"
@@ -126,7 +133,8 @@
                         your new role in
                         education
                         ?</h2>
-                    <p class="my-6 text-darkBlue leading-[2.4rem] font-[400] text-[1.4rem]">SET Recruitment specialises
+                    <p class="my-6 text-darkBlue leading-[2.6rem]  text-[1.4rem] ">SET Recruitment
+                        specialises
                         in offering a
                         value-for-money
                         support
@@ -135,7 +143,7 @@
                         possible temporary staff, backed with an excellent service that is available 24 hours a day, 7
                         days
                         a week, 365 days a year.</p>
-                    <!--  -->
+
                     <div class="md:flex  md:items-center md:flex-row justify-between h-[100px]">
                         <a href="/contactUs.html"><button class="bg-darkBlue px-7 py-4 text-white  rounded-md">Contact
                                 Us</button></a>
@@ -246,7 +254,8 @@
         <!------------- PROUD BUSSINESS PARTNER ---------->
         <section class=" bg-neutralBg  ">
             <div class="container p-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4  items-center  ">
-                <h3 class="text-[24px]  font-bold my-10 justify-self-start col-span-2 whitespace-nowrap">Proud Business
+                <h3 class="text-[24px]  font-bold my-10 justify-self-start col-span-2 whitespace-nowrap">Proud
+                    Business
                     Partners</h3>
                 <img src="/assets/REC CorporateMember-dark 1.png" alt="rec CorporateMember-dark">
                 <img src="/assets/JobsAware 1.png" alt="job aware logo">
@@ -279,11 +288,13 @@
                                 <img src="assets/whiteCheckIconWithPurpleBg.svg" alt="white check icon with purple bg">
 
 
-                                <p class="font-bold text-[1.2rem] my-6">Speak to a member of our Onboarding Team</p>
+                                <p class="font-bold text-[1.2rem] my-6">Speak to a member of our Onboarding Team
+                                </p>
                             </li>
                             <li class="flex items-center ">
                                 <img src="assets/whiteCheckIconWithPurpleBg.svg" alt="white check icon with purple bg">
-                                <p class="font-bold text-[1.2rem] ">Receive Log In details for a state of the art
+                                <p class="font-bold text-[1.2rem] ">Receive Log In details for a state of the
+                                    art
                                     onboarding system</p>
                             </li>
                         </ul>
@@ -294,14 +305,16 @@
                     <div class="card h-[339px] p-10 shadow-grayShadow  z-40 ">
                         <div class="flex justify-center items-center mb-10">
                             <img class="mr-6" src="assets/completeCompliance.svg" alt="completeCompliance illustration">
-                            <h4 class="text-black my-4 mx-4 text-[1.8rem]  text-left font-bold">Complete Compliance
+                            <h4 class="text-black my-4 mx-4 text-[1.8rem]  text-left font-bold">Complete
+                                Compliance
                                 Process</h4>
                         </div>
                         <ul>
                             <li class="flex items-center">
                                 <img src="assets/whiteCheckIconWithPurpleBg.svg" alt="white check icon with purple bg">
 
-                                <p class="font-bold text-[1.2rem]">Upload required information via the easy to use
+                                <p class="font-bold text-[1.2rem]">Upload required information via the easy to
+                                    use
                                     portal</p>
                             </li>
 
@@ -315,7 +328,8 @@
                             <li class="flex items-center ">
                                 <img src="assets/whiteCheckIconWithPurpleBg.svg" alt="white check icon with purple bg">
 
-                                <p class="font-bold text-[1.2rem] ">Reach 100% compliance and become clear to work</p>
+                                <p class="font-bold text-[1.2rem] ">Reach 100% compliance and become clear to
+                                    work</p>
                             </li>
                         </ul>
                     </div>
@@ -324,7 +338,8 @@
                     <div class="card h-[339px] p-10 card-grayShadow z-40 ">
                         <div class="flex  justify-center items-center mb-10">
                             <img class="mr-6" src="assets/_ÿ__2.svg" alt="start Application illustration">
-                            <h4 class="text-black my-4 mx-4 text-[1.8rem]  text-left font-bold">Begin Work <br> &
+                            <h4 class="text-black my-4 mx-4 text-[1.8rem]  text-left font-bold">Begin Work <br>
+                                &
                                 Ongoing
                                 Support
                             </h4>
@@ -338,14 +353,16 @@
                             <li class="flex items-center my-2">
                                 <img src="assets/whiteCheckIconWithPurpleBg.svg" alt="white check icon with purple bg">
 
-                                <p class="font-bold text-[1.2rem] my-6">You select a suitable placement from those on
+                                <p class="font-bold text-[1.2rem] my-6">You select a suitable placement from
+                                    those on
                                     offer</p>
                             </li>
                             <li class="flex  items-center ">
                                 <img src="assets/whiteCheckIconWithPurpleBg.svg" alt="white check icon with purple bg">
 
                                 <p class="font-bold text-[1.2rem] ">
-                                    Receive advice and ongoing professional development from our candidate care team
+                                    Receive advice and ongoing professional development from our candidate care
+                                    team
                                 </p>
                             </li>
                         </ul>
@@ -368,7 +385,8 @@
                         <img src="assets/temporaryIcon.svg" alt="temporaryIcon">
                         <div>
                             <h4 class="text-black mt-4 text-[1.8rem] text-left font-bold">Temporary</h4>
-                            <p class="text-[1.2rem] md:text-[1.3rem]">We assist candidates find employment whilst
+                            <p class="text-[1.2rem] md:text-[1.3rem]">We assist candidates find employment
+                                whilst
                                 maintaining their
                                 work-life balance</p>
                         </div>
@@ -378,7 +396,8 @@
                         <img src="assets/partTime.svg" alt="part time alarm icon">
                         <div class="my-8">
                             <h4 class="text-black  text-[1.8rem] text-left font-bold">Part Time</h4>
-                            <p class="text-[1.2rem] md:text-[1.3rem]">We reintegrate candidates back into employment</p>
+                            <p class="text-[1.2rem] md:text-[1.3rem]">We reintegrate candidates back into
+                                employment</p>
                         </div>
                     </div>
 
@@ -387,7 +406,8 @@
                         <img src="assets/fulltimeIcon.svg" alt="full time alarm illustration">
                         <div>
                             <h4 class="text-black mt-4  text-[1.8rem] text-left font-bold">Full Time</h4>
-                            <p class="text-[1.2rem] md:text-[1.3rem]">We aid candidates find full time positions</p>
+                            <p class="text-[1.2rem] md:text-[1.3rem]">We aid candidates find full time positions
+                            </p>
                         </div>
                     </div>
                     <!-- boy and logo section -->
@@ -491,7 +511,8 @@
                         <img src="assets/MPS Healthcare.svg" alt="Mps Healthcare icon">
                     </div>
                     <h4 class="font-bold mt-16 text-[2.2rem] md:text-[2.8rem]">Healthcare Recruitment</h4>
-                    <p class="my-6">For more information or roles in education, please visit SET Recruitment using the
+                    <p class="my-6">For more information or roles in education, please visit SET Recruitment
+                        using the
                         link
                         below</p>
                     <button class="bg-darkBlue text-white p-5 px-10 rounded-md">MPS Healthcare</button>
@@ -506,7 +527,8 @@
                         Recruitment using the
                         link
                         below</p>
-                    <button class="bg-darkBlue text-white p-5 px-10 rounded-md">Network Recruitment Wales</button>
+                    <button class="bg-darkBlue text-white p-5 px-10 rounded-md">Network Recruitment
+                        Wales</button>
                 </div>
 
             </div>
@@ -530,10 +552,12 @@
                         <div
                             class="reviewsSlide p-3 aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
                             <img class=" w-[140px]" src="/assets/5starImage.jpg" alt="5 star image ">
-                            <h6 class="text-[#746F6A]    text-[1.4rem] md:text-[1.6rem]">"Superb product;excellent c..."
+                            <h6 class="text-[#746F6A]    text-[1.4rem] md:text-[1.6rem]">"Superb
+                                product;excellent c..."
                             </h6>
 
-                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">Product superb and looks
+                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">Product superb and
+                                looks
                                 good
                                 when laid
                                 Excellent
@@ -550,7 +574,8 @@
                             <h6 class="text-[#746F6A]    text-[1.4rem] md:text-[1.6rem]">"Great service"
                             </h6>
 
-                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">Delivery was really quick
+                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">Delivery was really
+                                quick
                                 and the order process is really easy.</p>
                             <span class="text-[#AEABAA] text-[1.2rem]">Trusted Customer - Wednesday, 26 August
                                 2020</span>
@@ -560,8 +585,10 @@
                             class="reviewsSlide p-3 aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
                             <img class=" w-[140px]" src="/assets/5starImage.jpg" alt="5 star image ">
 
-                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">I was delighted with my
-                                whole experience with this company from the website to the ordering and prom...</p>
+                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">I was delighted
+                                with my
+                                whole experience with this company from the website to the ordering and prom...
+                            </p>
                             <span class="text-[#AEABAA] text-[1.2rem]">Paulin Mc Guinness - Wednesday, 26 August
                                 2020</span>
                         </div>
@@ -590,7 +617,8 @@
                             <h6 class="text-[#746F6A]    text-[1.4rem] md:text-[1.6rem]">"Absolutely thrilled "
                             </h6>
 
-                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">The product exceeded my
+                            <p class="text-[#585C68] mt-3    text-[1.3rem] md:text-[1.5rem]">The product
+                                exceeded my
                                 expectations in every way</p>
                             <span class="text-[#AEABAA] text-[1.2rem]">Trusted Customer - Wednesday, 26 August
                                 2020</span>

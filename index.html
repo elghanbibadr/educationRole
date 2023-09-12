@@ -360,13 +360,14 @@
             <img class="w-full inline-block relative bottom-24" src="/assets/Vector (5).svg" alt="">
         </section>
         <!------------- WHERE WE SUPPLY --------------->
-        <section class="md:bg-[url(assets/whereWeSuplyBgIlustration.svg)] relative bottom-24 py-[6rem] md:px-6">
+        <section
+            class="lg:bg-[url(assets/whereWeSuplyBgIlustration.svg)] bg-cover md:relative md:bottom-24 pt-[6rem] md:px-6">
             <div class="container card md:p-10 shadow-grayShadow grid grid-cols-1 gap-10   lg:grid-cols-3 gap-0">
                 <!-- grid item -->
                 <div>
-                    <h3 class="text-[26px] mt-10  md:text-left mb-10 font-bold">We Help</h3>
+                    <h3 class="text-[26px] mt-10  md:text-left mb-10 font-bold lg:mb-20">We Help</h3>
                     <div
-                        class="flex items-center h-[90px] py-6 my-6 shadow-purpleShadow md:shadow-none px-8 rounded-[2rem] gap-6">
+                        class="flex items-center h-[90px] py-6 my-6 shadow-purpleShadow md:shadow-none px-8 md:px-0 rounded-[2rem] gap-6">
                         <img src="assets/temporaryIcon.svg" alt="temporaryIcon">
                         <div>
                             <h4 class="text-black mt-4 text-[1.8rem] text-left font-bold">Temporary</h4>
@@ -376,7 +377,7 @@
                         </div>
                     </div>
                     <div
-                        class="flex items-center  my-3 px-8 shadow-purpleShadow h-[90px] rounded-[2rem] md:shadow-none md:rounded-[0px] gap-6">
+                        class="flex items-center my-3 px-8 md:px-0 shadow-purpleShadow h-[90px] rounded-[2rem] md:shadow-none md:rounded-[0px] gap-6">
                         <img src="assets/partTime.svg" alt="part time alarm icon">
                         <div class="my-8">
                             <h4 class="text-black  text-[1.8rem] text-left font-bold">Part Time</h4>
@@ -385,7 +386,7 @@
                     </div>
 
                     <div
-                        class="flex items-center h-[90px] shadow-purpleShadow rounded-[2rem] md:rounded-[0px] md:shadow-none py-6 px-8  gap-6">
+                        class="flex items-center h-[90px] shadow-purpleShadow rounded-[2rem] md:rounded-[0px] md:shadow-none py-6 px-8 md:px-0  gap-6">
                         <img src="assets/fulltimeIcon.svg" alt="full time alarm illustration">
                         <div>
                             <h4 class="text-black mt-4  text-[1.8rem] text-left font-bold">Full Time</h4>
@@ -394,18 +395,23 @@
                     </div>
                     <!-- boy and logo section -->
                     <div class="flex  items-center gap-6 mt-6  ">
+                        <img class="hidden md:block" src="/assets/setRecruitment.png" alt="set recruitment logo">
                         <img class="ml-auto relative hidden md:block bottom-[100px] md:ml-0 md:relative-none md:bottom-0"
                             src="/assets/boyImage.png" alt="boy image">
 
-                        <img class="hidden md:block" src="/assets/setRecruitment.png" alt="set recruitment logo">
                     </div>
                 </div>
                 <!-- grid item -->
+                <!--   lg:grid-rows-1  px-3 md:p-0 my-6 md:my-0  -->
+                <!-- 162px -->
+
                 <div
-                    class="lg:relative wherewesupply grid   md:col-span-2 grid-rows-2 md:grid-rows-1 md:grid-cols-2 px-3 md:p-0 my-6 md:my-0 rounded-[2rem] shadow-purpleShadow md:shadow-none md:rounded-[0px]  lg:left-[8rem]">
-                    <div class="row-start-2 md:row-start-1  mt-20">
-                        <h3 class="text-[26px] text-left mb-6 mt-10  font-bold">Where We Supply</h3>
-                        <ul class="grid grid-cols-2 md:grid-cols-1">
+                    class="lg:relative wherewesupply grid md:grid-cols-2 md:col-span-2 roundedForMobile   shadow-purpleShadow md:shadow-none   ">
+                    <img class="  md:relative md:scale-[1.2] md:top-4  self-end md:right-6 " src="/assets/map.svg"
+                        alt="map image">
+                    <div class="row-start-2 md:row-start-1 md:mt-0 lg:relative  p-10 lg:left-20">
+                        <h3 class="text-[26px] text-left mb-6   font-bold lg:mb-20">Where We Supply</h3>
+                        <ul class="grid grid-cols-2  md:flex md:flex-col ">
                             <!-- Cardiff   V  -->
                             <li class="flex items-center my-4">
                                 <span
@@ -472,8 +478,6 @@
                             </li>
                         </ul>
                     </div>
-                    <img class="relative left-10 scale-[1.2]  md:right-20 row-start-1  " src="/assets/map.svg"
-                        alt="map image">
                 </div>
                 <!-- grid item -->
             </div>

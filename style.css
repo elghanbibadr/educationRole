@@ -353,3 +353,53 @@ footer li {
         width: 300px !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the video header container */
+.video-header {
+    position: relative;
+    overflow: hidden;
+    height: 70vh !important;
+    /* Adjust as needed */
+}
+
+/* Style the video background */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red !important;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the video covers the entire header */
+    z-index: -1;
+    /* Place the video behind other content */
+}
+
+/* Style the content within the header */
+.content {
+    position: relative;
+    z-index: 1;
+    /* Place the content above the video */
+}
+
+/* Additional styles for your header content can be added here */

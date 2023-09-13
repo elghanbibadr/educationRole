@@ -36,8 +36,12 @@
     <!-- HEADER  -->
     <header class="video-header relative h-[70vh] md:h-[80vh]  ">
         <!-- <img class="absolute w-full inset-0" src="/assets/Purple overlay.svg" alt=""> -->
-        <video playsinline autoplay muted loop poster="/assets/herobg.png" class="video-background">
+        <video playsinline autoplay muted loop poster="/assets/herobg.png" class="video-background md:hidden">
             <source src="/assets/Home page video - mobile.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video playsinline autoplay muted loop poster="/assets/herobg.png" class="hidden md:block video-background">
+            <source src="/assets/HomepagevideoDesktop.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="content">
@@ -126,7 +130,7 @@
     <!-- Main -->
     <main>
         <!-- features section -->
-        <section class="container  -z-1  relative bottom-[10rem] md:bottom-20 lg:bottom-[12rem]  ">
+        <section class="container  -z-1  relative bottom-[10rem]  md:bottom-20 lg:bottom-[12rem]  ">
             <div class="   bg-white     card shadow-purpleShadow  roundedForMobile md:grid md:grid-cols-2">
                 <div class=" md:self-end relative md:left-8  right-10 md:justify-self-end  mb-5 md:col-start-2 ">
                     <img class="mx-auto hidden md:block mt-6 z-10" src="/assets/girlWithPurpleOverlayBg.svg"
@@ -513,28 +517,31 @@
         </section>
         <!-- ------------------CTA --------------->
         <section class="   md:bg-[url(assets/ctaBg.png)] bg-no-repeat bg-cover h-fit lg:pt-[200px]">
-            <img class="h-[400px] object-fit md:hidden relative top-40" src="/assets/ctaBg.png" alt="">
+            <img class="h-[430px] w-[700px] object-fit md:hidden relative top-40" src="/assets/ctaMobileBg.png" alt="">
             <div
                 class="grid grid-cols-1 bg-darkBlue   md:bg-transparent  gap-y-24 sm:gap-y-36    md:gap-y-24 gap-x-6 container sm:relative sm:top-[2rem] relative top-10 rounded-t-[130px] pt-[10rem]  md:grid-cols-2 md:top-36 justify-center items-center ">
                 <div class="card shadow-grayShadow text-center relative mt-[4rem] z-10 mb-[4rem]  md:mt-1  ">
                     <div
-                        class="card shadow-grayShadow absolute  bottom-[150px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+                        class="card shadow-grayShadow absolute  bottom-[180px] md:bottom-[150px] h-[118px] w-[212px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
                         <img src="assets/MPS Healthcare.svg" alt="Mps Healthcare icon">
                     </div>
                     <h4 class="font-bold mt-16 text-[2.2rem] md:text-[2.8rem]">Healthcare Recruitment</h4>
-                    <p class="my-6">For more information or roles in education, please visit SET Recruitment
+                    <p class="my-6 my-6 font-bold text-[1.6rem] leading-[24px]">For more information or roles in
+                        education, please visit SET Recruitment
                         using the
                         link
                         below</p>
-                    <button class="bg-darkBlue text-white p-5 px-10 rounded-md">MPS Healthcare</button>
+                    <button class="bg-darkBlue s text-white p-5 px-10 rounded-md">MPS Healthcare</button>
                 </div>
-                <div class="card shadow-grayShadow text-center relative  z-10 mb-[4rem]  md:mt-1  ">
+                <div class="card shadow-grayShadow text-center relative mt-[2rem]  z-10 mb-[4rem]  md:mt-1  ">
                     <div
-                        class="card shadow-grayShadow absolute  bottom-[150px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
-                        <img src="assets/NRW.svg" alt="NRW icon">
+                        class="card shadow-grayShadow absolute  bottom-[160px]  md:bottom-[150px] h-[118px] w-[212px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+                        <img class="mx-auto mt-4" src="assets/NRW.svg" alt="NRW icon">
                     </div>
-                    <h4 class="font-bold mt-16 text-[2.2rem] md:text-[2.8rem]">Network Recruitment</h4>
-                    <p class="my-6">For more information or roles in education, please visit SET
+                    <h4 class="font-bold mt-16 text-[2.2rem]  md:text-[2.8rem]">Network Recruitment</h4>
+                    <p class="my-6 font-bold text-[1.6rem] leading-[24px]">For more information or roles in education,
+                        please visit
+                        SET
                         Recruitment using the
                         link
                         below</p>
